@@ -9,12 +9,16 @@ namespace SingleTon
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MyClass name = MyClass.GetInstance();
-            MyClass name2 = MyClass.GetInstance();
+            MyClass connection1 = MyClass.GetInstance();
+            MyClass connection2 = MyClass.GetInstance();
 
-            name.Name = "jaber";
-            MessageBox.Show(name2.Name);
+            connection1.serverName = "myserver";
+            connection1.databaseName = "test";
+            connection1.userName = "sa";
+            connection1.password = "1112";
 
+           MessageBox.Show(connection1.Connecting_string());
+           MessageBox.Show(connection2.Connecting_string());
 
         }
     }

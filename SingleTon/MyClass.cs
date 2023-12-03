@@ -26,8 +26,20 @@ namespace SingleTon
             return Instance;
         }
 
+        public string serverName;
+        public string databaseName;
+        public string userName;
+        public string password;
 
-        public string Name;
+        public string connectionString;
+
+      
+        //-------------------------------------------------Add Class
+        public string Connecting_string ( )
+        { 
+            connectionString = "Data Source="+serverName+";Initial Catalog="+databaseName+";User ID="+ userName + ";Password="+password+"";
+            return  connectionString;
+        }
     }
 }
 
