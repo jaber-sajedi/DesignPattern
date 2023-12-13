@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facroty", "Facroty\Facroty.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFacroty", "AbstractFacroty\AbstractFacroty.csproj", "{059B403F-A1F1-4F09-A6F6-5FBE5C841F35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{A3DF1918-3340-4B4C-85A8-4315847106A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{A3DF1918-3340-4B4C-85A8-4315847106A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFacroty-ButtonExample", "AbstractFacroty-ButtonExample\AbstractFacroty-ButtonExample.csproj", "{29D15905-C886-4FD0-ACDD-47DC7AD4AD16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A3DF1918-3340-4B4C-85A8-4315847106A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3DF1918-3340-4B4C-85A8-4315847106A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3DF1918-3340-4B4C-85A8-4315847106A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D15905-C886-4FD0-ACDD-47DC7AD4AD16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D15905-C886-4FD0-ACDD-47DC7AD4AD16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D15905-C886-4FD0-ACDD-47DC7AD4AD16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D15905-C886-4FD0-ACDD-47DC7AD4AD16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
